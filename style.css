@@ -34,6 +34,7 @@ h3 {
 
 a {
     color: #cfb87c;
+    font-weight: 600;
     text-decoration: none;
     border-radius: 0.25rem;
     transition: box-shadow 0.15s ease-in-out;
