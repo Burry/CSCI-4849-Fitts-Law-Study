@@ -17,11 +17,15 @@ body {
 }
 
 h1 {
-    font-size: 1.95em;
+    font-size: 1.9em;
 }
 
 h1, p {
     margin: 0;
+}
+
+h2 {
+    margin: 0.5rem auto;
 }
 
 h3 {
