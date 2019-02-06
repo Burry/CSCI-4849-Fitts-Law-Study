@@ -1,83 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+    <head>
+        <meta charset="utf-8" />
 
-    <title>CSCI 4849 &raquo; Assignment 2</title>
+        <title>CSCI 4849 &raquo; Assignment 2</title>
 
-    <meta name="description" content="Studying the Fitts' law throughput of tap-to-click vs. press-to-click on laptop trackpads in bits/s" />
-    <meta
-      name="author"
-      content="Bryan Heiser, Grant Burry, and Vamshi Arugonda"
-    />
+        <meta
+            name="description"
+            content="Studying the Fitts' law throughput of tap-to-click vs. press-to-click on laptop trackpads in bits/s"
+        />
+        <meta
+            name="author"
+            content="Bryan Heiser, Grant Burry, and Vamshi Arugonda"
+        />
 
-    <!-- PWA Meta Tags -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="application-name" content="CSCI 4849 &raquo; HW2" />
-    <meta name="apple-mobile-web-app-title" content="CSCI 4849 &raquo; HW2" />
-    <meta name="theme-color" content="#cfb87c" />
-    <meta name="msapplication-TileColor" content="#cfb87c" />
+        <!-- PWA Meta Tags -->
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="application-name" content="CSCI 4849 &raquo; HW2" />
+        <meta
+            name="apple-mobile-web-app-title"
+            content="CSCI 4849 &raquo; HW2"
+        />
+        <meta name="theme-color" content="#cfb87c" />
+        <meta name="msapplication-TileColor" content="#cfb87c" />
 
-    <!-- App Manifest -->
-    <link rel="manifest" href="/manifest.webmanifest" />
+        <!-- App Manifest -->
+        <link rel="manifest" href="/manifest.webmanifest" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/favicon.ico" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/favicon.ico" />
 
-    <!-- Apple Icons -->
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+        <!-- Apple Icons -->
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="/apple-icon-57x57.png"
+        />
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-  </head>
-  <body>
-    <h1>
-      CSCI 4849
-      <span class="lighter">&raquo;</span>
-      <span class="light">Assignment 2</span>
-    </h1>
-    <h2 class="lighter">
-      Studying the Fitts' law throughput of tap-to-click vs. press-to-click on laptop trackpads in bits/s
-    </h2>
-    <h3>Authors</h3>
-    <p>
-        <a href="mailto:bryan.heiser@colorado.edu?subject=CSCI%204849%20Assignment%202">Bryan Heiser</a>,
-        <a href="mailto:grant.burry@colorado.edu?subject=CSCI%204849%20Assignment%202">Grant Burry</a>, and
-        <a href="mailto:vamshi.arugonda@colorado.edu?subject=CSCI%204849%20Assignment%202">Vamshi Arugonda</a>
-    </p>
-    <h3>Summary</h3>
-    <p>
-      Trackpad sensitivity and feedback has seen some leaps in the last decade
-      in terms of precision and control. But with the new transition towards
-      thinner “ultrabook” laptops that have the power and capability of a
-      regular laptop but without the bulk, there’s been a tendency to remove
-      certain functions and replace them with tech that’s thinner and lighter.
-      With trackpads, we see the loss of the button to click. Instead,
-      manufacturers have cleverly made the trackpad the button resulting in two
-      ways to select something using a trackpad. We tested the accuracy people
-      had when tapping the actual trackpad itself vs pressing down on the whole
-      mechanism itself.
-    </p>
-    <p>
-      Our method of testing was brief for this experiment, but our test results
-      came from people who had a wide demographic in tech. Grant has primarily
-      used Apple laptops his whole life so he had a more intuitive comfort with
-      both tapping and pressing. Bryan was a PC user for a large portion of his
-      life until he transition to Apple. Vamshi has never owned an Apple laptop
-      and all but one of the laptops he’s owned have had a physical button to
-      press. There was no order to the tests we conducted as every person was
-      instructed to do the tests on their own time. But all tests were conducted
-      using the same software (Fitts test) with a 100% error margin and 5 tests
-      being conducted. All tests were also conducted on an Apple laptop from
-      within the last 3 years. Our results yielded that pressing to click was a
-      lot easier for people across the board, despite their tech background.
-    </p>
-    <h3>Chart</h3>
-    <img src="/chart.svg" alt="Chart of Press to Click vs. Tap to Click with Trackpads" />
-  </body>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+    </head>
+    <body>
+        <h1>
+            CSCI 4849
+            <span class="lighter">&raquo;</span>
+            <span class="light">Assignment 2</span>
+        </h1>
+        <h2 class="lighter">
+            Studying the Fitts' law throughput of tap-to-click vs.
+            press-to-click on laptop trackpads in bits/s
+        </h2>
+        <h3>Authors</h3>
+        <p>
+            <a
+                href="mailto:bryan.heiser@colorado.edu?subject=CSCI%204849%20Assignment%202"
+                >Bryan Heiser</a
+            >,
+            <a
+                href="mailto:grant.burry@colorado.edu?subject=CSCI%204849%20Assignment%202"
+                >Grant Burry</a
+            >, and
+            <a
+                href="mailto:vamshi.arugonda@colorado.edu?subject=CSCI%204849%20Assignment%202"
+                >Vamshi Arugonda</a
+            >
+        </p>
+        <h3>Summary</h3>
+        <p>
+            Trackpad sensitivity and feedback has seen leaps in the last decade
+            in terms of precision and control. But with the new transition
+            towards thinner “ultrabook” laptops that have the power and
+            capability of a regular laptop but without the bulk, there’s been a
+            tendency to remove certain functions and replace them with tech
+            that’s thinner and lighter. With trackpads, we see the loss of the
+            separate button to click. Instead, manufacturers have cleverly made
+            the trackpad the button resulting in two ways to select something
+            using a trackpad. We tested the Fitts' law throughput of interaction
+            via tapping on the trackpad to make a selection versus pressing down
+            on the whole trackpad mechanism.
+        </p>
+        <p>
+            Our method of testing was brief for this experiment, but our test
+            results came from people who had a wide demographic in tech. Grant
+            has primarily used Apple laptops his whole life so he had a more
+            intuitive comfort with both tapping and pressing. Bryan was a PC
+            user for a large portion of his life until he transition to Apple.
+            Vamshi has never owned an Apple laptop and all but one of the
+            laptops he’s owned have had a physical button to press. There was no
+            order to the tests we conducted as every person was instructed to do
+            the tests on their own time. All tests were conducted using the same
+            software (Fitts test) with a 100% error margin and 5 tests being
+            conducted per trial, with four trials per person per interaction
+            type (tapping versus pressing). All tests were also conducted on an
+            Apple laptop from within the last 3 years. Our results show that
+            pressing to click consistently yielded higher throughputs across the
+            board, despite the background of the test participants.
+        </p>
+        <h3>Chart</h3>
+        <img
+            src="/chart.svg"
+            alt="Chart of Press to Click vs. Tap to Click with Trackpads"
+        />
+    </body>
 </html>
