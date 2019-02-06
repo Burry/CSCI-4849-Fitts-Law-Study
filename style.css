@@ -1,6 +1,7 @@
 body {
     margin: 50px auto;
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     max-width: 560px;
     background: #fefefe;
     color: #212529;
@@ -16,26 +17,30 @@ a {
     text-decoration: none;
     border-radius: 0.25rem;
     transition: box-shadow 0.15s ease-in-out;
+}
 
-    &:visited {
-        color: #007bff;
-    }
+a:visited {
+    color: #007bff;
+}
 
-    &:hover {
-        text-decoration: underline;
-    }
+a:hover {
+    text-decoration: underline;
+}
 
-    &:not(:active):focus {
-        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-        outline: none;
-    }
+a:not(:active):focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
 
-    &:active,
-    &:active:focus {
-        color: #006ee5;
-        text-decoration: underline;
-        outline: none;
-    }
+a:active,
+a:active:focus {
+    color: #006ee5;
+    text-decoration: underline;
+    outline: none;
+}
+
+img {
+    width: 100%;
 }
 
 .light {
