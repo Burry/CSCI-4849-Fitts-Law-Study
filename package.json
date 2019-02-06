@@ -1,0 +1,25 @@
+{
+    "name": "csci-4849-fitts-law-study",
+    "version": "1.0.0",
+    "description": "Studying the Fitts' law throughput of tap-to-click vs. press-to-click on laptop trackpads in bits/s",
+    "license": "MIT",
+    "private": true,
+    "homepage": "https://csci-4849-fitts-law-study.grantburry.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Burry/CSCI-4849-Fitts-Law-Study.git"
+    },
+    "contributors": [
+        "Bryan Heiser <bryan.heiser@colorado.edu>",
+        "Grant Burry <grant.burry@colorado.edu> (https://grantburry.com)",
+        "Vamshi Arugonda <vamshi.arugonda@colorado.edu>"
+    ],
+    "scripts": {
+        "start": "serve site",
+        "deploy": "gh-pages site"
+    },
+    "devDependencies": {
+        "gh-pages": "^2.0.1",
+        "serve": "^10.1.2"
+    }
+}
