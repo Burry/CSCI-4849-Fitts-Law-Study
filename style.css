@@ -16,6 +16,10 @@ body {
     background: #cfb87c;
 }
 
+h1 {
+    font-size: 1.95em;
+}
+
 h1, p {
     margin: 0;
 }
