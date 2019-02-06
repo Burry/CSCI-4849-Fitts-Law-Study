@@ -1,12 +1,13 @@
 {
     "name": "CSCI 4849 » Assignment 2",
     "short_name": "CSCI 4849 » HW2",
-    "description": "Studying the Fitts' law throughput of tap-to-click vs. press-to-click on laptop trackpads in bits/s",
+    "description": "Studying the Fitts' law throughput of tap-to-click vs. press-to-click on laptop trackpads",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#cfb87c",
     "background_color": "#ffffff",
-    "icons": [{
+    "icons": [
+        {
             "src": "favicon.ico",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
